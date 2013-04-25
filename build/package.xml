@@ -10,15 +10,15 @@
   <email>hek2mgl at metashock.net</email>
   <active>yes</active>
  </lead>
- <date>2013-04-24</date>
- <time>03:46:41</time>
+ <date>2013-04-25</date>
+ <time>22:54:49</time>
  <version>
-  <release>0.3.0</release>
-  <api>0.3.0</api>
+  <release>$$RELEASE_VERSION$$</release>
+  <api>$$API_VERSION$$</api>
  </version>
  <stability>
-  <release>beta</release>
-  <api>beta</api>
+  <release>stable</release>
+  <api>stable</api>
  </stability>
  <license uri="http://www.opensource.org/licenses/BSD-3-Clause">BSD-3</license>
  <notes>
@@ -32,6 +32,7 @@
     </dir>
   </dir>
 
+<!--  
   <dir name="examples">
     <dir name="Jm">
       <dir name="Util">
@@ -39,6 +40,7 @@
       </dir>
     </dir>
   </dir>
+-->
 
   <dir name="tests">
     <dir name="Jm">
