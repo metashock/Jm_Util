@@ -13,8 +13,6 @@ class Jm_Util_ChecktypeTest extends PHPUnit_Framework_TestCase
     /**
      */
     public function testCheck() {
-        require_once 'Jm/Autoloader.php';
-
         // basic type checks
         $this->assertTrue(Jm_Util_Checktype::check('string', 'hello'));
         $this->assertTrue(Jm_Util_Checktype::check('integer', 1));
@@ -40,9 +38,6 @@ class Jm_Util_ChecktypeTest extends PHPUnit_Framework_TestCase
         $this->assertFalse(Jm_Util_Checktype::check('string', 1, FALSE));
         $this->assertFalse(Jm_Util_Checktype::check('boolean', 1, FALSE));
         $this->assertFalse(Jm_Util_Checktype::check('DateTime', 1, FALSE));
-
-
-
     }
 
 
