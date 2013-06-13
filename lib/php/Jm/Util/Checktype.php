@@ -110,7 +110,7 @@ class Jm_Util_Checktype
 
         $possibleTypes = implode(' or ', $type);
         if(empty($msgprefix)) {
-            $msgprefix = 'param ';
+            $msgprefix = 'param';
         }
         throw new InvalidArgumentException (
             $msgprefix . sprintf(' expected to be %s. %s found',
